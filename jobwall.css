@@ -1,0 +1,105 @@
+.job_filters .search_jobs div.search_submit input{
+	/*search jobs button*/
+	border-radius:30px;
+	/*border-shadow:none;*/
+	box-shadow:none;
+	background-color:white;
+	/*border:solid rgb(178,27,23);*/
+	border: solid #b31918 2px;
+	height: 3em;
+	padding: 5px;
+	margin-top: 10px;
+	color: #b31918;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.job_filters .search_jobs div.search_submit input:hover{
+	background-color:rgb(178,27,23);
+	color:white;
+	border: solid rgb(178,27,23);
+	font-weight: 500;
+}
+
+/*benutzer EIngabe Div*/
+.job_filters{
+	/*border:solid red;*/
+	/*background-color:rgb(39,48,54);*/
+	background-color:white;
+	color: rgb(39,48,54);
+	
+}
+.search_jobs{
+	
+}
+/*jobarten bearbeiten*/
+.job_filters .job_types{
+	border-top: none;
+	background-color:white;
+}
+/*trennstiche entfernt*/
+.job_filters .job_types li{
+	border-right: none;
+}
+
+#search_keywords{
+	height: 3em;
+	border-radius:30px;
+	/*border:solid blue;*/	padding-left: 10px;
+		font-size: 1em
+}
+
+#search_location{
+	border-radius:30px;
+	height: 3em;
+	/*border:solid blue;*/
+	padding-left: 10px;
+	font-size: 1em
+}
+
+/*.job_listings li.job_listing {
+	
+	background-color:red;
+	border: solid blue;
+}*/
+
+/*padding von Jobeintrag entfernt*/
+.job_listings ul{
+	padding:0;
+	list-style-type:none;
+}
+
+/*location in Joblisting */
+.rp4wp-related-job_listing>ul li.job_listing a div.location, .rp4wp-related-job_listing>ul li.no_job_listings_found a div.location, ul.job_listings li.job_listing a div.location, ul.job_listings li.no_job_listings_found a div.location{
+	color:black;
+}
+
+/*"Veröffentlicht am"*/
+.date{
+	
+}
+
+.job_listing h3{
+	color:black;
+	
+}
+
+.company{
+	}
+
+/*"Jetzt Bewerben" Button*/
+.entry-content .job_application .application_button{
+	color:#b31918;
+	background-color: white;
+	border: solid #b31918 2px;
+	border-radius:30px;
+	font-weight:500;
+}
+
+.entry-content .job_application .application_button:hover{
+	color:white;
+	background-color:#b31918;
+	border: solid #b31918 2px;
+	border-radius:30px;
+	font-weight:500;
+}
